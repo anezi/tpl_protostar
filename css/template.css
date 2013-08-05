@@ -6213,7 +6213,7 @@ div.current dd.tabs {
 	border: 1px solid #CCC;
 	background-color: #FFF;
 }
-div.moduletable h3 {
+h3 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	line-height: 18px;
@@ -6223,4 +6223,7 @@ div.moduletable h3 {
 	color: #FFF;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
 	background-color: #08C;
+}
+div.moduletable h3 {
+
 }
