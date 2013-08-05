@@ -36,11 +36,11 @@ else
 
 // Add JavaScript Frameworks
 //JHtml::_('bootstrap.framework');
-$doc->addScript('templates/' .$this->template. '/bootstrap3.0.0rc1/js/bootstrap3.min.js');
+$doc->addScript('templates/' .$this->template. '/bootstrap3.0.0rc1/js/bootstrap.min.js');
 $doc->addScript('templates/' .$this->template. '/js/template.js');
 
 // Add Stylesheets
-$doc->addScript('templates/' .$this->template. '/bootstrap3.0.0rc1/css/bootstrap3.min.css');
+$doc->addScript('templates/' .$this->template. '/bootstrap3.0.0rc1/css/bootstrap.min.css');
 //$doc->addStyleSheet('templates/'.$this->template.'/css/template.css');
 
 // Load optional RTL Bootstrap CSS
