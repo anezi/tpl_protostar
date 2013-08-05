@@ -35,7 +35,8 @@ else
 }
 
 // Add JavaScript Frameworks
-JHtml::_('bootstrap.framework');
+//JHtml::_('bootstrap.framework');
+$doc->addScript('templates/' .$this->template. '/bootstrap3.0.0rc1/js/bootstrap3.min.js');
 $doc->addScript('templates/' .$this->template. '/js/template.js');
 
 // Add Stylesheets
@@ -149,6 +150,7 @@ else
 				<div class="header-inner clearfix">
 					<a class="brand pull-left" href="<?php echo $this->baseurl; ?>">
 						<?php echo $logo;?>
+
 <span class="site-title" title="<?php echo $sitename?>"><?php echo $sitename?></span>
 <?php if ($this->params->get('sitedescription')) { echo '<div class="site-description">'. htmlspecialchars($this->params->get('sitedescription')) .'</div>'; } ?>
 					</a>

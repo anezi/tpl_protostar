@@ -35,7 +35,8 @@ else
 }
 
 // Add JavaScript Frameworks
-JHtml::_('bootstrap.framework');
+//JHtml::_('bootstrap.framework');
+$doc->addScript('templates/' .$this->template. '/bootstrap3.0.0rc1/js/bootstrap3.min.js');
 $doc->addScript('templates/' .$this->template. '/js/template.js');
 
 // Add Stylesheets
