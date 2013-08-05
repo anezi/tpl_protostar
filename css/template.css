@@ -5803,8 +5803,8 @@ body.site.fluid {
 	font-size: 40px;
 	line-height: 60px;
 	font-weight: bold;
-	display:table-cell;
-	vertical-align:bottom;
+	position:absolute;
+	bottom:0;
 }
 .brand {
 	color: #004466;
