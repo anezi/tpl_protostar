@@ -5803,9 +5803,7 @@ body.site.fluid {
 	font-size: 40px;
 	line-height: 60px;
 	font-weight: bold;
-	position:absolute;
-	bottom:0;
-	float: right;
+	padding-top: 20px;
 }
 .brand {
 	color: #004466;
