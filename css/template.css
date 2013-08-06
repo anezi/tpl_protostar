@@ -5872,8 +5872,14 @@ h2 {
 	line-height: 24px;
 }
 h3 {
-	font-size: 18px;
-	line-height: 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	padding: 3px 15px 3px 15px;
+	margin: 5px 0px 5px 0px;
+	color: #FFF;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+	background-color: #5F3087;
+	line-height: 15px;
 }
 h4 {
 	font-size: 14px;
@@ -6215,16 +6221,6 @@ div.current dd.tabs {
 	clear: both;
 	border: 1px solid #CCC;
 	background-color: #FFF;
-}
-h3 {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 13px;
-	padding: 3px 15px 3px 15px;
-	margin: 5px 0px 5px 0px;
-	color: #FFF;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
-	background-color: #08C;
-
 }
 div.moduletable h3 {
 
