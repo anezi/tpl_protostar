@@ -51,9 +51,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 	-webkit-appearance: button;
 	cursor: pointer;
 }
-label, select, button, input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] {
-	cursor: pointer;
-}
 input[type="search"] {
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
@@ -747,10 +744,6 @@ label, input, button, select, textarea {
 input, button, select, textarea {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-label {
-	display: block;
-	margin-bottom: 5px;
-}
 select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
 	display: inline-block;
 	height: 18px;
@@ -1226,9 +1219,6 @@ input.search-query {
 }
 .form-search .hide, .form-inline .hide, .form-horizontal .hide {
 	display: none;
-}
-.form-search label, .form-inline label, .form-search .btn-group, .form-inline .btn-group {
-	display: inline-block;
 }
 .form-search .input-append, .form-inline .input-append, .form-search .input-prepend, .form-inline .input-prepend {
 	margin-bottom: 0;
@@ -5229,15 +5219,6 @@ fieldset.radio.btn-group {
 }
 .input-prepend > .add-on, .input-append > .add-on {
 	vertical-align: top;
-}
-.element-invisible {
-	position: absolute;
-	padding: 0;
-	margin: 0;
-	border: 0;
-	height: 1px;
-	width: 1px;
-	overflow: hidden;
 }
 .form-vertical .control-label {
 	float: none;

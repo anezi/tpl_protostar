@@ -6,11 +6,6 @@ audio, canvas, video {
 audio:not([controls]) {
 	display: none;
 }
-html {
-	font-size: 100%;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-}
 a:focus {
 	outline: thin dotted #333;
 	outline: 5px auto -webkit-focus-ring-color;
@@ -49,9 +44,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
 	-webkit-appearance: button;
-	cursor: pointer;
-}
-label, select, button, input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] {
 	cursor: pointer;
 }
 input[type="search"] {
@@ -746,10 +738,6 @@ label, input, button, select, textarea {
 }
 input, button, select, textarea {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-label {
-	display: block;
-	margin-bottom: 5px;
 }
 select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
 	display: inline-block;
@@ -5226,15 +5214,6 @@ fieldset.radio.btn-group {
 }
 .input-prepend > .add-on, .input-append > .add-on {
 	vertical-align: top;
-}
-.element-invisible {
-	position: absolute;
-	padding: 0;
-	margin: 0;
-	border: 0;
-	height: 1px;
-	width: 1px;
-	overflow: hidden;
 }
 .form-vertical .control-label {
 	float: none;
