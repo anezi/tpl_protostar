@@ -111,7 +111,8 @@ window.onload = function() {
 			'icon-inbox' : '&#xf01c;',
 			'icon-firewall' : '&#xf021;',
 			'icon-shield' : '&#xf132;',
-			'icon-home' : '&#xf015;'
+			'icon-home' : '&#xf015;',
+			'icon-login' : '&#xe03d;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;

@@ -7,7 +7,7 @@ $icons = 'new-tab, .icon-star, .icon-box-remove, .icon-box-add, .icon-briefcase,
 $tab = explode(', .icon-', $icons);
 
 foreach ($tab as $icon) {
-	echo '<span class="icon-' . $icon . '"></span> : ' $icon . '<br />';
+	echo '<span class="icon-' . $icon . '"></span> : ' . $icon . '<br />';
 }
 
 
