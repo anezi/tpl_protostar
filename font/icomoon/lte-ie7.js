@@ -113,7 +113,10 @@ window.onload = function() {
 			'icon-shield' : '&#xf132;',
 			'icon-home' : '&#xf015;',
 			'icon-login' : '&#xe03d;',
-			'icon-cog' : '&#xe046;'
+			'icon-cog' : '&#xe046;',
+			'icon-user-md' : '&#xf0f0;',
+			'icon-lock' : '&#xf023;',
+			'icon-unlock-alt' : '&#xf13e;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;
