@@ -1195,13 +1195,6 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 	-moz-border-radius: 14px 0 0 14px;
 	border-radius: 14px 0 0 14px;
 }
-.form-search input, .form-search textarea, .form-search select, .form-search .help-inline, .form-search .uneditable-input, .form-search .input-prepend, .form-search .input-append, .form-inline input, .form-inline textarea, .form-inline select, .form-inline .help-inline, .form-inline .uneditable-input, .form-inline .input-prepend, .form-inline .input-append, .form-horizontal input, .form-horizontal textarea, .form-horizontal select, .form-horizontal .help-inline, .form-horizontal .uneditable-input, .form-horizontal .input-prepend, .form-horizontal .input-append {
-	display: inline-block;
-	*display: inline;
-	*zoom: 1;
-	margin-bottom: 0;
-	vertical-align: middle;
-}
 .form-search .hide, .form-inline .hide, .form-horizontal .hide {
 	display: none;
 }
