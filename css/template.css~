@@ -2352,7 +2352,6 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 	list-style: none;
 }
 .nav > li > a {
-	display: block;
 }
 .nav > li > a:hover, .nav > li > a:focus {
 	text-decoration: none;
