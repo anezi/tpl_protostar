@@ -2318,14 +2318,6 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 .nav-tabs, .nav-pills {
 	*zoom: 1;
 }
-.nav-tabs:before, .nav-tabs:after, .nav-pills:before, .nav-pills:after {
-	display: table;
-	content: "";
-	line-height: 0;
-}
-.nav-tabs:after, .nav-pills:after {
-	clear: both;
-}
 .nav-tabs > li, .nav-pills > li {
 	float: left;
 }
