@@ -37,9 +37,9 @@ for (var i = 0; i < ul.length; i++) {
 }
 
 var li = document.getElementsByTagName("li");
-for (var i = 0; i < ul.length; i++) {
-    if (ul[i].className != 'undefined') {
-        ul[i].append('<i class="icon-' + ul[i].className + '"></i>');
+for (var i = 0; i < li.length; i++) {
+    if (li[i].className != 'undefined') {
+        li[i].append('<i class="icon-' + li[i].className + '"></i>');
     }
 }
 
