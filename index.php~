@@ -38,11 +38,11 @@ else
 JHtml::_('bootstrap.framework');
 $doc->addScript('templates/' .$this->template. '/js/template.js');
 
-// Add Stylesheets
-$doc->addStyleSheet('templates/'.$this->template.'/css/template.css');
-
 // Load optional RTL Bootstrap CSS
 JHtml::_('bootstrap.loadCss', true, $this->direction);
+
+// Add Stylesheets
+$doc->addStyleSheet('templates/'.$this->template.'/css/template.css');
 
 // Add current user information
 $user = JFactory::getUser();
