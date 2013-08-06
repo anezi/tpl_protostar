@@ -5236,6 +5236,7 @@ div.modal.fade.in {
 	speak: none;
 }
 [class^="icon-"], [class*=" icon-"] {
+	background-image: none;
 	display: inline-block;
 	width: 14px;
 	height: 14px;
