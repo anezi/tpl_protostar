@@ -14,13 +14,20 @@ font-family: 'IcoMoon';
 font-style: normal;
 speak: none;
 }
+
+<?php for( $i=0; $i<100; $i++) : ?>
+.icon-<?php echo $i ?>:before {
+content: "\<?php echo $i ?>";
+}
+<?php endfor; ?>
+
 </style>
 
 <?php
 
-for( $i=0; $i<500; $i++) {
+for( $i=0; $i<100; $i++) {
 
-echo $i . ' : ' . '<span class="icon">' . '\\'$i . '</span><br />';
+echo $i . ' : ' . '<span class="icon">' . '\\' . $i . '</span><br />';
 
 }
 
