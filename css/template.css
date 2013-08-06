@@ -5881,6 +5881,9 @@ h3 {
 	background-color: #5F3087;
 	line-height: 15px;
 }
+h3 a {
+	color: #fff;
+}
 h4 {
 	font-size: 14px;
 	line-height: 16px;
