@@ -2315,9 +2315,6 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 	background-color: #e5e5e5;
 	border-bottom: 1px solid #fff;
 }
-.nav-tabs, .nav-pills {
-	*zoom: 1;
-}
 .nav-tabs > li, .nav-pills > li {
 	float: left;
 }
