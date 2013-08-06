@@ -42,11 +42,8 @@
 			}
 		});
 
-var li = $.find("li");
-for (var i = 0; i < li.length; i++) {
-    if (li[i].className != 'undefined') {
-        li[i].append('<i class="icon-' + li[i].className + '"></i>');
-    }
+$( "li" ).each(function() {
+  $(this).append('<i class="icon-' + $(this).css() + '"></i>');
 }
 
 	})
