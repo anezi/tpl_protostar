@@ -5803,7 +5803,6 @@ body.site.fluid {
 	font-size: 40px;
 	line-height: 60px;
 	font-weight: bold;
-	margin-top: 20px;
 	text-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-webkit-text-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-moz-text-shadow: 0 0 8px rgba(0, 0, 0, .8);
