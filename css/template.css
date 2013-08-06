@@ -5240,6 +5240,7 @@ body.site.fluid {
 .site-title {
 	display: block;
 	float: left;
+	margin: 0 5px;
 	font-size: 40px;
 	font-weight: bold;
 	text-shadow: 0 0 8px rgba(0, 0, 0, .8);

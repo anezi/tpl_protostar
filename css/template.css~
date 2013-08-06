@@ -5259,6 +5259,7 @@ body.site.fluid {
 	text-decoration: none;
 }
 .brand img {
+	float: left;
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
