@@ -1170,16 +1170,6 @@ input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:fo
 .input-prepend.input-append .btn-group:first-child {
 	margin-left: 0;
 }
-input.search-query {
-	padding-right: 14px;
-	padding-right: 4px \9;
-	padding-left: 14px;
-	padding-left: 4px \9;
-	margin-bottom: 0;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-}
 .form-search .input-append .search-query, .form-search .input-prepend .search-query {
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
