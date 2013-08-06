@@ -110,7 +110,8 @@ window.onload = function() {
 			'icon-remove-sign' : '&#xf057;',
 			'icon-inbox' : '&#xf01c;',
 			'icon-firewall' : '&#xf021;',
-			'icon-shield' : '&#xf132;'
+			'icon-shield' : '&#xf132;',
+			'icon-home' : '&#xf015;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;
