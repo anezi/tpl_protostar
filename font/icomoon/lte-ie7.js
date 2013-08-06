@@ -11,7 +11,6 @@ window.onload = function() {
 			'icon-box-remove' : '&#xe005;',
 			'icon-box-add' : '&#xe006;',
 			'icon-briefcase' : '&#xe001;',
-			'icon-users' : '&#xe003;',
 			'icon-mobile' : '&#xe004;',
 			'icon-tablet' : '&#xe007;',
 			'icon-screen' : '&#xe008;',
@@ -116,7 +115,9 @@ window.onload = function() {
 			'icon-cog' : '&#xe046;',
 			'icon-user-md' : '&#xf0f0;',
 			'icon-lock' : '&#xf023;',
-			'icon-unlock-alt' : '&#xf13e;'
+			'icon-unlock-alt' : '&#xf13e;',
+			'icon-user' : '&#xf007;',
+			'icon-group' : '&#xf0c0;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;
