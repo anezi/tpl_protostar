@@ -17,7 +17,8 @@ window.onload = function() {
 			'icon-user-2' : '&#xe006;',
 			'icon-createfile' : '&#xf0c6;',
 			'icon-folder-open' : '&#xe007;',
-			'icon-calendar' : '&#xe008;'
+			'icon-calendar' : '&#xe008;',
+			'icon-security2' : '&#xf02e;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;
