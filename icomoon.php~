@@ -27,7 +27,7 @@ content: "\<?php echo $i ?>";
 
 for( $i=0; $i<100; $i++) {
 
-echo $i . ' : ' . '<span class="icon">' . '\\' . $i . '</span><br />';
+echo $i . ' : ' . '<span class="icon-' . $i . '"></span><br />';
 
 }
 
