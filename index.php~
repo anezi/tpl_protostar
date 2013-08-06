@@ -43,6 +43,7 @@ JHtml::_('bootstrap.loadCss', true, $this->direction);
 
 // Add Stylesheets
 $doc->addStyleSheet('templates/'.$this->template.'/css/template.css');
+$doc->addStyleSheet('templates/'.$this->template.'/font/icomoon/style.css');
 
 // Add current user information
 $user = JFactory::getUser();
