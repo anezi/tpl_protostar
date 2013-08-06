@@ -166,14 +166,12 @@ else
 			<?php endif; ?>
 			<jdoc:include type="modules" name="banner" style="xhtml" />
 			<div class="row-fluid">
-				<?php if ($this->countModules('position-8')) : ?>
-				<!-- Begin Sidebar -->
-				<div id="sidebar" class="span4">
-					<div class="sidebar-nav">
-						<jdoc:include type="modules" name="position-8" style="xhtml" />
-					</div>
+				<?php if ($this->countModules('position-7')) : ?>
+				<div id="aside" class="well span4">
+					<!-- Begin Right Sidebar -->
+					<jdoc:include type="modules" name="position-7" style="xhtml" />
+					<!-- End Right Sidebar -->
 				</div>
-				<!-- End Sidebar -->
 				<?php endif; ?>
 				<main id="content" role="main" class="<?php echo $span;?>">
 					<!-- Begin Content -->
@@ -183,12 +181,14 @@ else
 					<jdoc:include type="modules" name="position-2" style="none" />
 					<!-- End Content -->
 				</main>
-				<?php if ($this->countModules('position-7')) : ?>
-				<div id="aside" class="well span4">
-					<!-- Begin Right Sidebar -->
-					<jdoc:include type="modules" name="position-7" style="xhtml" />
-					<!-- End Right Sidebar -->
+				<?php if ($this->countModules('position-8')) : ?>
+				<!-- Begin Sidebar -->
+				<div id="sidebar" class="span4">
+					<div class="sidebar-nav">
+						<jdoc:include type="modules" name="position-8" style="xhtml" />
+					</div>
 				</div>
+				<!-- End Sidebar -->
 				<?php endif; ?>
 			</div>
 		</div>
