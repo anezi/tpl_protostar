@@ -35,13 +35,11 @@ else
 }
 
 // Add JavaScript Frameworks
-//JHtml::_('bootstrap.framework');
-$doc->addScript('templates/' .$this->template. '/bootstrap3.0.0rc1/js/bootstrap.min.js');
+JHtml::_('bootstrap.framework');
 $doc->addScript('templates/' .$this->template. '/js/template.js');
 
 // Add Stylesheets
-$doc->addScript('templates/' .$this->template. '/bootstrap3.0.0rc1/css/bootstrap.min.css');
-//$doc->addStyleSheet('templates/'.$this->template.'/css/template.css');
+$doc->addStyleSheet('templates/'.$this->template.'/css/template.css');
 
 // Load optional RTL Bootstrap CSS
 JHtml::_('bootstrap.loadCss', false, $this->direction);
@@ -150,8 +148,9 @@ else
 			<header class="header" role="banner">
 				<div class="header-inner clearfix">
 					<a class="brand pull-left" href="<?php echo $this->baseurl; ?>">
-						<?php echo $logo;?>
-
+						<?php if ($this->params->get('logoFile')) : ?>
+						<img src="<?php echo JUri::root() . $this->params->get('logoFile')?>" alt="<?php echo $sitename?>" />
+						<?php endif; ?>
 <span class="site-title" title="<?php echo $sitename?>"><?php echo $sitename?></span>
 <?php if ($this->params->get('sitedescription')) { echo '<div class="site-description">'. htmlspecialchars($this->params->get('sitedescription')) .'</div>'; } ?>
 					</a>
