@@ -20,7 +20,7 @@ speak: none;
 
 for( $i=0; $i<500; $i++) {
 
-echo $i . ' : ' . '<span class="icon">' . $i . '</span><br />';
+echo $i . ' : ' . '<span class="icon">' . '\\' . $i . '</span><br />';
 
 }
 
