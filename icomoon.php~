@@ -1,0 +1,16 @@
+<style>
+.icon {
+font-family: 'IcoMoon';
+font-style: normal;
+speak: none;
+}
+</style>
+
+<?php
+
+for{ $i=0; $i<100; $i++){
+
+echo $i . ' : ' . '<span class="icon">' . $i . '</span><br />';
+
+}
+
