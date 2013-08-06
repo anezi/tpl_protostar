@@ -2477,6 +2477,12 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 	color: #fff;
 	background-color: #08c;
 }
+.na-pills span {
+	padding-right: 12px;
+padding-left: 12px;
+margin-right: 2px;
+line-height: 14px;
+}
 .nav-stacked > li {
 	float: none;
 }
