@@ -44,7 +44,7 @@
 
 $( "li" ).each(function() {
   $(this).append('<i class="icon-' + $(this).css() + '"></i>');
-}
+};
 
 	})
 })(jQuery);
