@@ -1227,9 +1227,6 @@ input.search-query {
 .form-search .hide, .form-inline .hide, .form-horizontal .hide {
 	display: none;
 }
-.form-search label, .form-inline label, .form-search .btn-group, .form-inline .btn-group {
-	display: inline-block;
-}
 .form-search .input-append, .form-inline .input-append, .form-search .input-prepend, .form-inline .input-prepend {
 	margin-bottom: 0;
 }
