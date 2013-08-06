@@ -54,11 +54,11 @@ if ($this->countModules('position-7') && $this->countModules('position-8'))
 }
 elseif ($this->countModules('position-7') && !$this->countModules('position-8'))
 {
-	$span = "span9";
+	$span = "span8";
 }
 elseif (!$this->countModules('position-7') && $this->countModules('position-8'))
 {
-	$span = "span9";
+	$span = "span8";
 }
 else
 {
@@ -168,7 +168,7 @@ else
 			<div class="row-fluid">
 				<?php if ($this->countModules('position-8')) : ?>
 				<!-- Begin Sidebar -->
-				<div id="sidebar" class="span3">
+				<div id="sidebar" class="span4">
 					<div class="sidebar-nav">
 						<jdoc:include type="modules" name="position-8" style="xhtml" />
 					</div>
@@ -184,7 +184,7 @@ else
 					<!-- End Content -->
 				</main>
 				<?php if ($this->countModules('position-7')) : ?>
-				<div id="aside" class="well span3">
+				<div id="aside" class="well span4">
 					<!-- Begin Right Sidebar -->
 					<jdoc:include type="modules" name="position-7" style="xhtml" />
 					<!-- End Right Sidebar -->
