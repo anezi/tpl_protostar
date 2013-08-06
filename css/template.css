@@ -2355,6 +2355,10 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 	float: left;
 	display: block;
 }
+.nav > li > span {
+	float: left;
+	display: block;
+}
 .nav > li > a:hover, .nav > li > a:focus {
 	text-decoration: none;
 	background-color: #eee;
