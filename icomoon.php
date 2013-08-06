@@ -18,7 +18,7 @@ speak: none;
 
 <?php
 
-for( $i=0; $i<100; $i++) {
+for( $i=0; $i<500; $i++) {
 
 echo $i . ' : ' . '<span class="icon">' . $i . '</span><br />';
 
