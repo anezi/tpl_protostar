@@ -43,7 +43,7 @@
 		});
 
 $( "li" ).each(function() {
-  $(this).append('<i class="icon-' + $(this).find('a').attr("class") + '"></i>');
+  $(this).prepend('<i class="icon-' + $(this).find('a').attr("class") + '"></i>');
 });
 
 	})
