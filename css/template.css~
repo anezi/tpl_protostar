@@ -137,10 +137,6 @@ body {
 	font-size: 13px;
 	line-height: 18px;
 }
-a {
-	color: #08c;
-	text-decoration: none;
-}
 a:hover, a:focus {
 	color: #005580;
 	text-decoration: underline;
