@@ -5659,4 +5659,11 @@ vertical-align: middle;
 border-collapse: collapse;
 border-spacing: 2px;
 border-color: #808080;
+background-color: #F9F9F9;
+font-weight: bold;
+padding: 8px;
+line-height: 18px;
+text-align: left;
+vertical-align: top;
+border-top: 1px solid #DDD;
 }
