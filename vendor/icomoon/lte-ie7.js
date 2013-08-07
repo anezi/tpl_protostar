@@ -117,7 +117,8 @@ window.onload = function() {
 			'icon-lock' : '&#xf023;',
 			'icon-unlock-alt' : '&#xf13e;',
 			'icon-user' : '&#xf007;',
-			'icon-group' : '&#xf0c0;'
+			'icon-group' : '&#xf0c0;',
+			'icon-list-2' : '&#xf03a;'
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, html, c, el;
