@@ -43,7 +43,7 @@ $doc->addScript('templates/' .$this->template. '/js/template.js');
 JHtml::_('bootstrap.loadCss', true, $this->direction);
 
 // Add Stylesheets
-$doc->addStyleSheet('templates/'.$this->template.'/vendor/bootstrap3rc1/js/bootstrap.min.css');
+$doc->addStyleSheet('templates/'.$this->template.'/vendor/bootstrap3rc1/css/bootstrap.min.css');
 $doc->addStyleSheet('templates/'.$this->template.'/css/template.css');
 $doc->addStyleSheet('templates/'.$this->template.'/font/icomoon/style.css');
 
