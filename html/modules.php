@@ -36,12 +36,16 @@ function modChrome_no($module, &$params, &$attribs)
 
 function modChrome_icon($module, &$params, &$attribs)
 {
+	$classes = htmlspecialchars($params->get('moduleclass_sfx'));
+	$classes = explode(' ', $classes);
+	$iconClass = array_shift($classes);
+	$moduleClass = implode(' ', $classes);
 	if ($module->content)
 	{
-		echo "<div class=\"moduletable " . htmlspecialchars($params->get('moduleclass_sfx')) . "\">";
+		echo "<div class=\"moduletable " . $moduleClass . "\">";
 		if ($module->showtitle)
 		{
-			echo '<h3 class="page-header"><span class="icon-' . htmlspecialchars($params->get('moduleclass_sfx')) . '"></span>' . $module->title . "</h3>";
+			echo '<h3 class="page-header"><span class="icon-' . $iconClass . '"></span>' . $module->title . "</h3>";
 		}
 		echo $module->content;
 		echo "</div>";
