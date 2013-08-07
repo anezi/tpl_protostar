@@ -5462,7 +5462,7 @@ h6 {
 .navigation .nav > li {
 	position: relative;
 }
-.navigation .nav > li > a {
+.navigation .nav > li.active > a {
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
