@@ -36,16 +36,6 @@ else
 
 // Add JavaScript Frameworks
 JHtml::_('bootstrap.framework');
-//$doc->addScript('templates/' .$this->template. '/vendor/bootstrap3rc1/js/bootstrap.min.js');
-$doc->addScript('templates/' .$this->template. '/js/template.js');
-
-// Load optional RTL Bootstrap CSS
-JHtml::_('bootstrap.loadCss', true, $this->direction);
-
-// Add Stylesheets
-//$doc->addStyleSheet('templates/'.$this->template.'/vendor/bootstrap3rc1/css/bootstrap.min.css');
-$doc->addStyleSheet('templates/'.$this->template.'/css/template.css');
-$doc->addStyleSheet('templates/'.$this->template.'/font/icomoon/style.css');
 
 // Add current user information
 $user = JFactory::getUser();
@@ -68,6 +58,10 @@ else
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="language" content="<?php echo $this->language; ?>" />
+	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/media/jui/css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/media/jui/css/bootstrap-responsive.min.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/media/jui/css/bootstrap-extended.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/font/icomoon/style.css" type="text/css" />
 	<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template.css" type="text/css" />
 
 	<?php
