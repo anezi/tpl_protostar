@@ -170,7 +170,7 @@ else
 				<?php if ($this->countModules('position-7')) : ?>
 				<div id="aside" class="well span4">
 					<!-- Begin Right Sidebar -->
-					<jdoc:include type="modules" name="position-7" style="xhtml" />
+					<jdoc:include type="modules" name="position-7" style="icon" />
 					<!-- End Right Sidebar -->
 				</div>
 				<?php endif; ?>
