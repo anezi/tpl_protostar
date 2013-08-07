@@ -5655,3 +5655,8 @@ div.moduletable h3 {
 background-image: none;
 vertical-align: middle;
 }
+.menu > li {
+border-collapse: collapse;
+border-spacing: 2px;
+border-color: #808080;
+}
