@@ -5461,6 +5461,9 @@ h6 {
 }
 .navigation .nav > li {
 	position: relative;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 .navigation .nav > li:hover > .nav-child, .navigation .nav > li > a:focus + .nav-child {
 	display: block;
