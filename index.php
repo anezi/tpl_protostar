@@ -40,7 +40,7 @@ $doc->addScript('templates/' .$this->template. '/vendor/bootstrap3rc1/js/bootstr
 $doc->addScript('templates/' .$this->template. '/js/template.js');
 
 // Load optional RTL Bootstrap CSS
-JHtml::_('bootstrap.loadCss', true, $this->direction);
+//JHtml::_('bootstrap.loadCss', true, $this->direction);
 
 // Add Stylesheets
 $doc->addStyleSheet('templates/'.$this->template.'/vendor/bootstrap3rc1/css/bootstrap.min.css');
