@@ -35,15 +35,15 @@ else
 }
 
 // Add JavaScript Frameworks
-//JHtml::_('bootstrap.framework');
-$doc->addScript('templates/' .$this->template. '/vendor/bootstrap3rc1/js/bootstrap.min.js');
+JHtml::_('bootstrap.framework');
+//$doc->addScript('templates/' .$this->template. '/vendor/bootstrap3rc1/js/bootstrap.min.js');
 $doc->addScript('templates/' .$this->template. '/js/template.js');
 
 // Load optional RTL Bootstrap CSS
-//JHtml::_('bootstrap.loadCss', true, $this->direction);
+JHtml::_('bootstrap.loadCss', true, $this->direction);
 
 // Add Stylesheets
-$doc->addStyleSheet('templates/'.$this->template.'/vendor/bootstrap3rc1/css/bootstrap.min.css');
+//$doc->addStyleSheet('templates/'.$this->template.'/vendor/bootstrap3rc1/css/bootstrap.min.css');
 $doc->addStyleSheet('templates/'.$this->template.'/css/template.css');
 $doc->addStyleSheet('templates/'.$this->template.'/font/icomoon/style.css');
 
